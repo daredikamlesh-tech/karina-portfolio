@@ -1,93 +1,317 @@
-Karina Daredi
-Home
-About
-Skills
-Portfolio
-Contact
-Hi, I'm Karina Daredi
-BCA Graduate | Web Developer
-Passionate about building functional and user-friendly web applications. I love creating clean, real-world solutions using modern web technologies.
+<!DOCTYPE html>
+<html lang="en">
 
-View My Work Get In Touch
-Karina Daredi
-About Me
-Get to know me better
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina Daredi | Web Developer</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='27.portfolio.css'>
+</head>
 
-I'm a passionate web developer who loves building real-world digital solutions
-I am a BCA Graduate from Shree Swaminarayan College of Computer Science, Bhavnagar under Maharaja Krishnakumarsingh University. I have a strong interest in web development and have hands-on experience building complete web applications from scratch.
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Karina Daredi</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-I completed a 130-hour web development internship where I worked on HTML, CSS, Tailwind CSS, JavaScript, PHP and MySQL. I have also built and deployed a live home service platform — ServiceProvider — which is accessible at serviceprovider.rf.gd.
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Karina Daredi</h1>
+                <h2>BCA Graduate | Web Developer</h2>
+                <p>
+                    Passionate about building functional and user-friendly web applications.
+                    I love creating clean, real-world solutions using modern web technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/it.jpg" alt="Karina Daredi" class="profile-image">
+            </div>
+        </div>
+    </section>
 
-2
-Projects Completed
-130
-Internship Hours
-1
-Live Deployed App
-My Skills
-Technologies I work with
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <header class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </header>
 
-💻
-Frontend Development
-HTML5, CSS3, Tailwind CSS, JavaScript
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I'm a passionate web developer who loves building real-world digital solutions</h3>
+                    <p>
+                        I am a BCA Graduate from Shree Swaminarayan College of Computer Science, Bhavnagar
+                        under Maharaja Krishnakumarsingh University. I have a strong interest in web development
+                        and have hands-on experience building complete web applications from scratch.
+                    </p>
+                    <p>
+                        I completed a 130-hour web development internship where I worked on HTML, CSS,
+                        Tailwind CSS, JavaScript, PHP and MySQL. I have also built and deployed a live
+                        home service platform — ServiceProvider — which is accessible at
+                        <a href="https://serviceprovider.rf.gd" target="_blank">serviceprovider.rf.gd</a>.
+                    </p>
+                </div>
 
-⚙️
-Backend Development
-PHP, MySQL
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">130</div>
+                        <div class="stat-label">Internship Hours</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Live Deployed App</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-🎨
-UI Design
-Responsive Design, User-Friendly Layouts
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <header class="section-header">
+                <h2>My Skills</h2>
+                <p>Technologies I work with</p>
+            </header>
 
-🚀
-Deployment
-Live Hosting, Vercel, Web Deployment
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, Tailwind CSS, JavaScript</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </article>
 
-🗄️
-Database
-MySQL, Database Design, CRUD Operations
+                <article class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>PHP, MySQL</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </article>
 
-🔧
-Tools
-VS Code, Git, Browser DevTools
+                <article class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI Design</h3>
+                    <p>Responsive Design, User-Friendly Layouts</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </article>
 
-My Projects
-Real projects I have built
+                <article class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Deployment</h3>
+                    <p>Live Hosting, Vercel, Web Deployment</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </article>
 
-ServiceProvider Platform
-ServiceProvider — Live Project
-Online home service booking platform where users can book workers for services like electrical, plumbing, cleaning and more. Includes Razorpay payment, 3 modules: User, Worker & Admin.
+                <article class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Database</h3>
+                    <p>MySQL, Database Design, CRUD Operations</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </article>
 
-HTML CSS Tailwind JavaScript PHP MySQL
-🌐 View Live
-Portfolio Website
-Personal Portfolio Website
-My personal portfolio website showcasing my skills, projects and contact information. Built with pure HTML, CSS and JavaScript and deployed on Vercel.
+                <article class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Tools</h3>
+                    <p>VS Code, Git, Browser DevTools</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
-HTML CSS JavaScript
-🌐 View Live
-Get In Touch
-Let's work together
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <header class="section-header">
+                <h2>My Projects</h2>
+                <p>Real projects I have built</p>
+            </header>
 
-Contact Information
-I am actively looking for job or internship opportunities as a fresher web developer. Feel free to reach out!
+            <div class="portfolio-grid">
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="img/e-comm.jpg" alt="ServiceProvider Platform">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>ServiceProvider — Live Project</h3>
+                        <p>Online home service booking platform where users can book workers for services like electrical, plumbing, cleaning and more. Includes Razorpay payment, 3 modules: User, Worker & Admin.</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <a href="https://serviceprovider.rf.gd" target="_blank" style="color:#fff; margin-top:8px; display:inline-block; text-decoration:underline;">🌐 View Live</a>
+                    </div>
+                </article>
 
-📧
-Email
-daredikamlesh@gmail.com
-📞
-Phone
-+91 9558004847
-📍
-Location
-Ahmedabad, Gujarat, India
-🌐
-Live Project
-serviceprovider.rf.gd
-Your Name 
-Your Email 
-Message 
-Send Message
-© 2025 Karina Daredi. All rights reserved.
+                <article class="portfolio-item">
+                    <figure>
+                        <img src="img/port.jpg" alt="Portfolio Website">
+                    </figure>
+                    <div class="portfolio-overlay">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>My personal portfolio website showcasing my skills, projects and contact information. Built with pure HTML, CSS and JavaScript and deployed on Vercel.</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://karina-portfolio-steel.vercel.app/" target="_blank" style="color:#fff; margin-top:8px; display:inline-block; text-decoration:underline;">🌐 View Live</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
-↑
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <header class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's work together</p>
+            </header>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p style="margin-bottom: 30px;">
+                        I am actively looking for job or internship opportunities as a fresher web developer.
+                        Feel free to reach out!
+                    </p>
+
+                    <address>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:daredikamlesh@gmail.com">daredikamlesh@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Phone</strong><br>
+                                <a href="tel:+919558004847">+91 9558004847</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong><br>
+                                Ahmedabad, Gujarat, India
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">🌐</span>
+                            <div>
+                                <strong>Live Project</strong><br>
+                                <a href="https://serviceprovider.rf.gd" target="_blank">serviceprovider.rf.gd</a>
+                            </div>
+                        </div>
+                    </address>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Karina Daredi. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        window.addEventListener('scroll', function () {
+            const scrollTop = document.querySelector('.scroll-top');
+            if (window.pageYOffset > 300) {
+                scrollTop.classList.add('show');
+            } else {
+                scrollTop.classList.remove('show');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        document.querySelector('.contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
