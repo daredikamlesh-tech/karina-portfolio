@@ -218,10 +218,10 @@
             width: 100%;
             max-width: 500px;
             height: auto;
-            border-radius: 50%;
+            border-radius: 0%;
             border: 10px solid rgba(255, 255, 255, 0.2);
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: rotate3d 20s linear infinite;
+            
         }
 
         @keyframes rotate3d {
